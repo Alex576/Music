@@ -19,7 +19,7 @@ namespace MusicPlayer
         private bool isShiftDown;
         private bool dopGrid = true;
         private bool isProgressBarChaging;
-
+        private bool lstBoxisOpen = false;
 
 
         public MainWindow()
@@ -79,7 +79,7 @@ namespace MusicPlayer
                 currentSong++;
             }
             NAudioEngine.Instance.OpenFile(listBox.Items[currentSong].ToString());
-            NAudioEngine.Instance.InputStream().Volume = 0.2f;
+            NAudioEngine.Instance.InputStream().Volume = (float)SoundValue.Value;
             name.Content = listBox.Items[currentSong].ToString();
             if (NAudioEngine.Instance.CanPlay)
                 NAudioEngine.Instance.Play();
@@ -136,10 +136,11 @@ namespace MusicPlayer
                     {
                         mainWindow.Width += 300;
                         dopGrid = false;
+                        lstBoxisOpen = true;
                     }
                     listBox.Items.Add(file.FileName);
                     NAudioEngine.Instance.OpenFile(file.FileName);
-                    NAudioEngine.Instance.InputStream().Volume = 0.2f;
+                    NAudioEngine.Instance.InputStream().Volume = (float)SoundValue.Value;
                     currentSong = listBox.Items.Count - 1;
                     name.Content = file.FileName;
 
@@ -189,16 +190,17 @@ namespace MusicPlayer
                     if (!item.EndsWith(".mp3") || listBox.Items.Contains(item)) continue;
                     if (dopGrid == true)
                     {
-                        mainWindow.Width += 300;
+                        mainWindow.Width = 300;
                         dopGrid = false;
+                        lstBoxisOpen = true;
                     }
 
                     listBox.Items.Add(item);
                 }
 
             if (listBox.Items.Count == 0) return;
-            NAudioEngine.Instance.OpenFile(listBox.Items[currentSong].ToString());
-            NAudioEngine.Instance.InputStream().Volume = 0.2f;
+            NAudioEngine.Instance.OpenFile(listBox.Items[listBox.Items.Count-1].ToString());
+            NAudioEngine.Instance.InputStream().Volume = (float)SoundValue.Value;
             name.Content = listBox.Items[currentSong].ToString();
             StartPause.Source = new BitmapImage(new Uri(@"Images/pause.png", UriKind.Relative));
             if (NAudioEngine.Instance.CanPlay)
@@ -234,7 +236,7 @@ namespace MusicPlayer
                 currentSong++;
             }
             NAudioEngine.Instance.OpenFile(listBox.Items[currentSong].ToString());
-            NAudioEngine.Instance.InputStream().Volume = 0.2f;
+            NAudioEngine.Instance.InputStream().Volume = (float)SoundValue.Value;
             name.Content = listBox.Items[currentSong].ToString();
             if (NAudioEngine.Instance.CanPlay)
                 NAudioEngine.Instance.Play();
@@ -263,7 +265,7 @@ namespace MusicPlayer
                 currentSong--;
             }
             NAudioEngine.Instance.OpenFile(listBox.Items[currentSong].ToString());
-            NAudioEngine.Instance.InputStream().Volume = 0.2f;
+            NAudioEngine.Instance.InputStream().Volume = (float)SoundValue.Value;
             name.Content = listBox.Items[currentSong].ToString();
             if (NAudioEngine.Instance.CanPlay)
                 NAudioEngine.Instance.Play();
@@ -291,7 +293,7 @@ namespace MusicPlayer
                 currentSong++;
             }
             NAudioEngine.Instance.OpenFile(listBox.Items[currentSong].ToString());
-            NAudioEngine.Instance.InputStream().Volume = 0.2f;
+            NAudioEngine.Instance.InputStream().Volume = (float)SoundValue.Value;
             if (NAudioEngine.Instance.CanPlay)
                 NAudioEngine.Instance.Play();
             name.Content = listBox.Items[currentSong].ToString();
@@ -326,7 +328,7 @@ namespace MusicPlayer
             var a = (System.Windows.Controls.ListBox)sender;
             currentSong = a.SelectedIndex;
             NAudioEngine.Instance.OpenFile(listBox.Items[currentSong].ToString());
-            NAudioEngine.Instance.InputStream().Volume = 0.2f;
+            NAudioEngine.Instance.InputStream().Volume = (float)SoundValue.Value;
             if (NAudioEngine.Instance.CanPlay)
                 NAudioEngine.Instance.Play();
             name.Content = listBox.Items[currentSong].ToString();
@@ -370,7 +372,7 @@ namespace MusicPlayer
 
                     }
                     NAudioEngine.Instance.OpenFile(listBox.Items[currentSong].ToString());
-                    NAudioEngine.Instance.InputStream().Volume = 0.2f;
+                    NAudioEngine.Instance.InputStream().Volume = (float)SoundValue.Value;
                     name.Content = listBox.Items[currentSong].ToString();
                 }
                 listBox.Items.Remove(selecteditems[0]);
@@ -386,6 +388,15 @@ namespace MusicPlayer
         private void progress_DragStarted(object sender, System.Windows.Controls.Primitives.DragStartedEventArgs e)
         {
             isProgressBarChaging = true;
+        }
+
+        private void OpenCloseListSongs(object sender, RoutedEventArgs e)
+        {
+            if (lstBoxisOpen == false)
+            {
+                listBox.Width = 300;
+
+            }
         }
     }
 

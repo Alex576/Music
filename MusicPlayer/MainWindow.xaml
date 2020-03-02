@@ -28,7 +28,15 @@
             <ColumnDefinition Width="100"></ColumnDefinition>
             <ColumnDefinition Width="auto" MaxWidth="300"></ColumnDefinition>
         </Grid.ColumnDefinitions>
-        <Label Grid.Row="0" Grid.ColumnSpan="3" Name="name" Foreground="White"></Label>
+        <Grid Height="auto" Grid.ColumnSpan="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition Width="auto" ></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Button Grid.Column="1" Height="20" Width="20" Name="OpenCloseListOfSongs" Click="OpenCloseListSongs"></Button>
+            <Label Name="name" Foreground="White"></Label>
+        </Grid>
+        
         <svl:SpectrumAnalyzer x:Name="spectrumAnalyzer" Margin="5" BarCount="64" Grid.ColumnSpan="3" Grid.Row="1"/>
         <ListBox x:Name="listBox" Grid.Row="0" Grid.RowSpan="4" Grid.Column="3" Foreground="White" SelectionMode="Extended" MouseDoubleClick="SelectSong" Background="#00000000">
             <ListBox.ContextMenu>
