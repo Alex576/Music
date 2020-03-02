@@ -1,0 +1,2 @@
+C:\Users\Shyri\source\repos\MusicPlayer\NodejsWebApp1\obj\Debug\NodejsWebApp1.njsprojAssemblyReference.cache
+C:\Users\Shyri\source\repos\MusicPlayer\NodejsWebApp1\bin\Microsoft.NodejsTools.WebRole.dll

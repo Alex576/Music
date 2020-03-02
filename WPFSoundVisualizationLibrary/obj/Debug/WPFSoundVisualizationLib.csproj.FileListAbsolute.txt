@@ -1,0 +1,41 @@
+d:\Игры Сашы\Загрузки\Музыка Саши Побита\Rhythm-master\WPFSoundVisualizationLib\WPFSoundVisualizationLibrary\bin\Debug\license.txt
+d:\Игры Сашы\Загрузки\Музыка Саши Побита\Rhythm-master\WPFSoundVisualizationLib\WPFSoundVisualizationLibrary\bin\Debug\WPFSoundVisualizationLib.XML
+d:\Игры Сашы\Загрузки\Музыка Саши Побита\Rhythm-master\WPFSoundVisualizationLib\WPFSoundVisualizationLibrary\bin\Debug\WPFSoundVisualizationLib.dll
+d:\Игры Сашы\Загрузки\Музыка Саши Побита\Rhythm-master\WPFSoundVisualizationLib\WPFSoundVisualizationLibrary\bin\Debug\WPFSoundVisualizationLib.pdb
+d:\Игры Сашы\Загрузки\Музыка Саши Побита\Rhythm-master\WPFSoundVisualizationLib\WPFSoundVisualizationLibrary\obj\Debug\GeneratedInternalTypeHelper.g.cs
+d:\Игры Сашы\Загрузки\Музыка Саши Побита\Rhythm-master\WPFSoundVisualizationLib\WPFSoundVisualizationLibrary\obj\Debug\WPFSoundVisualizationLib_MarkupCompile.cache
+d:\Игры Сашы\Загрузки\Музыка Саши Побита\Rhythm-master\WPFSoundVisualizationLib\WPFSoundVisualizationLibrary\obj\Debug\WPFSoundVisualizationLib_MarkupCompile.lref
+d:\Игры Сашы\Загрузки\Музыка Саши Побита\Rhythm-master\WPFSoundVisualizationLib\WPFSoundVisualizationLibrary\obj\Debug\Themes\Generic.baml
+d:\Игры Сашы\Загрузки\Музыка Саши Побита\Rhythm-master\WPFSoundVisualizationLib\WPFSoundVisualizationLibrary\obj\Debug\WPFSoundVisualizationLib.g.resources
+d:\Игры Сашы\Загрузки\Музыка Саши Побита\Rhythm-master\WPFSoundVisualizationLib\WPFSoundVisualizationLibrary\obj\Debug\WPFSoundVisualizationLib.Properties.Resources.resources
+d:\Игры Сашы\Загрузки\Музыка Саши Побита\Rhythm-master\WPFSoundVisualizationLib\WPFSoundVisualizationLibrary\obj\Debug\WPFSoundVisualizationLib.csproj.GenerateResource.cache
+d:\Игры Сашы\Загрузки\Музыка Саши Побита\Rhythm-master\WPFSoundVisualizationLib\WPFSoundVisualizationLibrary\obj\Debug\WPFSoundVisualizationLib.dll
+d:\Игры Сашы\Загрузки\Музыка Саши Побита\Rhythm-master\WPFSoundVisualizationLib\WPFSoundVisualizationLibrary\obj\Debug\WPFSoundVisualizationLib.pdb
+C:\Users\Shyri\source\repos\testAnalaser\WPFSoundVisualizationLibrary\bin\Debug\license.txt
+C:\Users\Shyri\source\repos\testAnalaser\WPFSoundVisualizationLibrary\bin\Debug\WPFSoundVisualizationLib.XML
+C:\Users\Shyri\source\repos\testAnalaser\WPFSoundVisualizationLibrary\bin\Debug\WPFSoundVisualizationLib.dll
+C:\Users\Shyri\source\repos\testAnalaser\WPFSoundVisualizationLibrary\bin\Debug\WPFSoundVisualizationLib.pdb
+C:\Users\Shyri\source\repos\testAnalaser\WPFSoundVisualizationLibrary\obj\Debug\WPFSoundVisualizationLib.csprojAssemblyReference.cache
+C:\Users\Shyri\source\repos\testAnalaser\WPFSoundVisualizationLibrary\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Shyri\source\repos\testAnalaser\WPFSoundVisualizationLibrary\obj\Debug\WPFSoundVisualizationLib_MarkupCompile.cache
+C:\Users\Shyri\source\repos\testAnalaser\WPFSoundVisualizationLibrary\obj\Debug\WPFSoundVisualizationLib_MarkupCompile.lref
+C:\Users\Shyri\source\repos\testAnalaser\WPFSoundVisualizationLibrary\obj\Debug\Themes\Generic.baml
+C:\Users\Shyri\source\repos\testAnalaser\WPFSoundVisualizationLibrary\obj\Debug\WPFSoundVisualizationLib.g.resources
+C:\Users\Shyri\source\repos\testAnalaser\WPFSoundVisualizationLibrary\obj\Debug\WPFSoundVisualizationLib.Properties.Resources.resources
+C:\Users\Shyri\source\repos\testAnalaser\WPFSoundVisualizationLibrary\obj\Debug\WPFSoundVisualizationLib.csproj.GenerateResource.cache
+C:\Users\Shyri\source\repos\testAnalaser\WPFSoundVisualizationLibrary\obj\Debug\WPFSoundVisualizationLib.dll
+C:\Users\Shyri\source\repos\testAnalaser\WPFSoundVisualizationLibrary\obj\Debug\WPFSoundVisualizationLib.pdb
+C:\Users\Shyri\source\repos\MusicPlayer\WPFSoundVisualizationLibrary\bin\Debug\license.txt
+C:\Users\Shyri\source\repos\MusicPlayer\WPFSoundVisualizationLibrary\bin\Debug\WPFSoundVisualizationLib.XML
+C:\Users\Shyri\source\repos\MusicPlayer\WPFSoundVisualizationLibrary\bin\Debug\WPFSoundVisualizationLib.dll
+C:\Users\Shyri\source\repos\MusicPlayer\WPFSoundVisualizationLibrary\bin\Debug\WPFSoundVisualizationLib.pdb
+C:\Users\Shyri\source\repos\MusicPlayer\WPFSoundVisualizationLibrary\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Shyri\source\repos\MusicPlayer\WPFSoundVisualizationLibrary\obj\Debug\WPFSoundVisualizationLib_MarkupCompile.cache
+C:\Users\Shyri\source\repos\MusicPlayer\WPFSoundVisualizationLibrary\obj\Debug\WPFSoundVisualizationLib_MarkupCompile.lref
+C:\Users\Shyri\source\repos\MusicPlayer\WPFSoundVisualizationLibrary\obj\Debug\Themes\Generic.baml
+C:\Users\Shyri\source\repos\MusicPlayer\WPFSoundVisualizationLibrary\obj\Debug\WPFSoundVisualizationLib.g.resources
+C:\Users\Shyri\source\repos\MusicPlayer\WPFSoundVisualizationLibrary\obj\Debug\WPFSoundVisualizationLib.Properties.Resources.resources
+C:\Users\Shyri\source\repos\MusicPlayer\WPFSoundVisualizationLibrary\obj\Debug\WPFSoundVisualizationLib.csproj.GenerateResource.cache
+C:\Users\Shyri\source\repos\MusicPlayer\WPFSoundVisualizationLibrary\obj\Debug\WPFSoundVisualizationLib.dll
+C:\Users\Shyri\source\repos\MusicPlayer\WPFSoundVisualizationLibrary\obj\Debug\WPFSoundVisualizationLib.pdb
+c:\Users\Shyri\source\repos\MusicPlayer\WPFSoundVisualizationLibrary\obj\Debug\WPFSoundVisualizationLib.csprojAssemblyReference.cache
