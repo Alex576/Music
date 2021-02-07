@@ -26,7 +26,7 @@
             <ColumnDefinition Width="100"></ColumnDefinition>
             <ColumnDefinition></ColumnDefinition>
             <ColumnDefinition Width="100"></ColumnDefinition>
-            <ColumnDefinition Width="auto" MaxWidth="300"></ColumnDefinition>
+            <ColumnDefinition Width="auto" MaxWidth="300" Name="ListOfSongsGrid"></ColumnDefinition>
         </Grid.ColumnDefinitions>
         <Grid Height="auto" Grid.ColumnSpan="3">
             <Grid.ColumnDefinitions>
@@ -76,7 +76,7 @@
             <Button Margin="2" Grid.Column="2" Click="Btn_Go">
                 <Image Source="Images/start.png" Name="StartPause"></Image>
             </Button>
-            <Button Margin="2" Grid.Column="3" Click="Btn_Braek">
+            <Button Margin="2" Grid.Column="3" Click="Btn_Break">
                 <Image Source="Images/break.png"></Image>
             </Button>
             <Button Margin="2" Grid.Column="0" Click="Btn_New" HorizontalAlignment="Left">New</Button>
