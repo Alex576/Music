@@ -1,1 +1,1 @@
-# Music visualization
+# Music equalizer
